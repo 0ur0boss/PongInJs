@@ -5,7 +5,7 @@
 :root {
   --hue: 200;
   --saturation: 50%;
-  --foreground-color: hsl(var(--hue), var(--saturation), 75%);
+  --foreground-color: hsl(var(--hue), var(--saturation), 5%);
   --background-color: hsl(var(--hue), var(--saturation), 20%);
 }
 
@@ -67,4 +67,13 @@ body {
 .score > :first-child {
   text-align: right;
   border-right: .5vh solid var(--foreground-color);
+}
+
+.logo {
+  height: 30vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
+  border: 0;
 }
